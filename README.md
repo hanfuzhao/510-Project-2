@@ -97,7 +97,7 @@ open figures/
 - street names, casualty counts (by type)
 - contributing factors, vehicle types
 
-**Derived Columns (3)**:
+**Feature Engineering (3)**:
 - `crash_hour`: Hour of day (0-23)
 - `total_casualties`: Sum of injured + killed (DV)
 - `time_period`: "Night" or "Day" classification (IV)
