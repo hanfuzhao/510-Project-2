@@ -211,10 +211,9 @@ Possible explanations:
 
 ## Academic Information
 
-**Authors**: [Your Name], [Partner's Name]  
+**Authors**: Hanfu Zhao, Jaideep Aher 
 **Course**: Module Project 2 - Statistical Analysis  
-**Date**: November 2024  
-**Purpose**: Educational (University Course Assignment)
+**Date**: November 2025
 
 ---
 
@@ -239,14 +238,12 @@ This project is for educational use only. Data sourced from NYC Open Data.
 
 ## Project Status
 
-✅ Data processed (1M+ crashes)  
-✅ Statistical analysis complete (p < 0.0001)  
-✅ Visualizations generated (6 figures)  
-✅ Documentation complete  
-✅ Ready for report writing  
-✅ Ready for GitHub submission  
+Data processed (1M+ crashes)  
+Statistical analysis complete (p < 0.0001)  
+Visualizations generated (6 figures)  
+Documentation complete  
+Ready for report writing  
+Ready for GitHub submission  
 
 ---
-
-**Last Updated**: October 23, 2024  
 **Version**: 1.0
