@@ -6,7 +6,7 @@
 
 **Research Question**: Are motor vehicle crashes occurring during nighttime hours more severe (with higher average casualties) than those occurring during daytime hours in New York City?
 
-**Conclusion**: ✅ **YES!** Nighttime crashes have significantly higher average casualties than daytime crashes (p < 0.0001)
+**Conclusion**: **YES!** Nighttime crashes have significantly higher average casualties than daytime crashes (p < 0.0001)
 
 ---
 
