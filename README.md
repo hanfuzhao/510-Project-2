@@ -10,7 +10,7 @@
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 | Metric | Night (18:00-05:59) | Day (06:00-17:59) |
 |--------|---------------------|-------------------|
@@ -24,7 +24,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Install Dependencies
 ```bash
@@ -51,29 +51,29 @@ open figures/
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 510 Project 2/
 │
 ├── data/
 │   ├── Motor_Vehicle_Collisions_-_Crashes.csv  (Raw data)
-│   └── processed_data.csv                      (Analysis-ready) ⭐
+│   └── processed_data.csv                      (Analysis-ready) 
 │
 ├── scripts/
 │   ├── data_clean.py              (Data cleaning)
 │   ├── analysis.py                (Analysis module)
 │   ├── statistical_tests.py       (Statistical tests)
 │   ├── visualizations.py          (Visualization module)
-│   ├── quick_analysis.py          (Quick analysis) ⭐
-│   └── create_visualizations.py   (Generate figures) ⭐
+│   ├── quick_analysis.py          (Quick analysis) 
+│   └── create_visualizations.py   (Generate figures) 
 │
 ├── results/
 │   └── analysis_results_quick.txt (Statistical summary)
 │
 ├── figures/                        (6 PNG visualizations)
-│   ├── mean_comparison.png        ⭐
-│   ├── hourly_patterns.png        ⭐
+│   ├── mean_comparison.png        
+│   ├── hourly_patterns.png        
 │   └── ... (4 more figures)
 │
 └── docs/
@@ -85,7 +85,7 @@ open figures/
 
 ---
 
-## 📊 Data Files
+## Data Files
 
 ### processed_data.csv (Primary Data File)
 - **Size**: 188 MB
@@ -104,7 +104,7 @@ open figures/
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Rerun Complete Analysis
 ```bash
@@ -131,19 +131,19 @@ python scripts/analysis.py
 ## 📖 Documentation
 
 ### Getting Started
-- **This README** - Complete overview and quick start guide ⭐
+- **This README** - Complete overview and quick start guide 
 - `results/analysis_results_quick.txt` - Detailed statistical results
 
 ### For Report Writing
-- `docs/report_template.md` - Complete report template (fill this out) ⭐⭐
+- `docs/report_template.md` - Complete report template (fill this out) 
 - `figures/` - All 6 visualizations for your report
 
 ### For GitHub Collaboration
-- `docs/GIT_WORKFLOW.md` - Step-by-step Git workflow guide ⭐
+- `docs/GIT_WORKFLOW.md` - Step-by-step Git workflow guide 
 
 ---
 
-## 🎯 Deliverables
+## Deliverables
 
 ### 1. Written Report
 - Template: `docs/report_template.md`
@@ -151,8 +151,8 @@ python scripts/analysis.py
 - Insert figures from `figures/`
 
 ### 2. GitHub Repository
-- ✅ All analysis scripts (modular design)
-- ✅ Complete documentation
+- All analysis scripts (modular design)
+- Complete documentation
 - ⏳ Create branches and Pull Requests (see `docs/GIT_WORKFLOW.md`)
 
 ### 3. Presentation (8 minutes)
@@ -161,7 +161,7 @@ python scripts/analysis.py
 
 ---
 
-## 🔬 Methodology Summary
+## Methodology Summary
 
 ### Variables
 - **Independent Variable (IV)**: Time period (Night: 18:00-05:59, Day: 06:00-17:59)
@@ -183,7 +183,7 @@ python scripts/analysis.py
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 ### Why Are Night Crashes More Severe?
 
@@ -203,7 +203,7 @@ Possible explanations:
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Language**: Python 3.8+
 - **Data Processing**: pandas, numpy
@@ -213,7 +213,7 @@ Possible explanations:
 
 ---
 
-## 🎓 Academic Information
+## Academic Information
 
 **Authors**: [Your Name], [Partner's Name]  
 **Course**: Module Project 2 - Statistical Analysis  
@@ -222,7 +222,7 @@ Possible explanations:
 
 ---
 
-## 📞 Getting Help
+## Getting Help
 
 | Question | Resource |
 |----------|----------|
@@ -235,13 +235,13 @@ Possible explanations:
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational use only. Data sourced from NYC Open Data.
 
 ---
 
-## 🌟 Project Status
+## Project Status
 
 ✅ Data processed (1M+ crashes)  
 ✅ Statistical analysis complete (p < 0.0001)  
