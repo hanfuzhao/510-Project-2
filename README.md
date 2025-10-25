@@ -128,7 +128,7 @@ python scripts/analysis.py
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 ### Getting Started
 - **This README** - Complete overview and quick start guide 
@@ -153,11 +153,7 @@ python scripts/analysis.py
 ### 2. GitHub Repository
 - All analysis scripts (modular design)
 - Complete documentation
-- ⏳ Create branches and Pull Requests (see `docs/GIT_WORKFLOW.md`)
-
-### 3. Presentation (8 minutes)
-- Use figures: `mean_comparison.png`, `hourly_patterns.png`
-- Present key statistics and conclusions
+- Create branches and Pull Requests (see `docs/GIT_WORKFLOW.md`)
 
 ---
 
