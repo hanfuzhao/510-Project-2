@@ -258,15 +258,15 @@ python3 power_analysis_planner.py
 
 **Expected output:**
 ```
-=== 设置 ===
-alpha=0.050 (双侧), target power=0.80, CV=0.25
-尺寸数=15，每组当前计划的n示例：n=10
+=== Settings ===
+alpha=0.050 (two-tailed), target power=0.80, CV=0.25
+Number of sizes=15, planned n per group: n=10
 
-=== 关键对比（所需每组样本量 与 当前n=10功效）===
-尺寸5 vs 6: means=(6.73,4.56), Δ=2.17m, n_req≈7, power@n=10≈0.93
-尺寸1 vs 6: means=(13.18,4.56), Δ=8.62m, n_req≈2, power@n=10≈1.00
-尺寸14 vs 15: means=(1.74,0.71), Δ=1.03m, n_req≈2, power@n=10≈1.00
-尺寸3 vs 4: means=(7.44,7.48), Δ=0.04m, n_req≈34126, power@n=10≈0.05
+=== Key Comparisons (Required n per group & Power at n=10) ===
+Size 5 vs 6: means=(6.73,4.56), Δ=2.17m, n_req≈7, power@n=10≈0.93
+Size 1 vs 6: means=(13.18,4.56), Δ=8.62m, n_req≈2, power@n=10≈1.00
+Size 14 vs 15: means=(1.74,0.71), Δ=1.03m, n_req≈2, power@n=10≈1.00
+Size 3 vs 4: means=(7.44,7.48), Δ=0.04m, n_req≈34126, power@n=10≈0.05
 ```
 
 ---
