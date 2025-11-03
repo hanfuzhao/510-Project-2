@@ -120,32 +120,32 @@ def plan_specific_pairs(pairs: List[Tuple[int, int]], cv: float, alpha: float, p
 
 def main():
     parser = argparse.ArgumentParser(description="Paper-plane power analysis planner (two-sample t-test, normal approx)")
-    parser.add_argument("--cv", type=float, default=0.25, help="组内变异系数CV（σ/均值），如0.25")
-    parser.add_argument("--alpha", type=float, default=0.05, help="显著性水平α（双侧）")
-    parser.add_argument("--power", type=float, default=0.80, help="目标功效1-β")
-    parser.add_argument("--show_all_adjacent", action="store_true", help="打印所有相邻尺寸对的所需n")
+    parser.add_argument("--cv", type=float, default=0.25, help="Within-group coefficient of variation (CV=σ/mean), e.g., 0.25")
+    parser.add_argument("--alpha", type=float, default=0.05, help="Significance level alpha (two-tailed)")
+    parser.add_argument("--power", type=float, default=0.80, help="Target power (1-beta)")
+    parser.add_argument("--show_all_adjacent", action="store_true", help="Print required n for all adjacent size pairs")
     args = parser.parse_args()
 
     cv = args.cv
     alpha = args.alpha
     target_power = args.power
 
-    print("=== 设置 ===")
-    print(f"alpha={alpha:.3f} (双侧), target power={target_power:.2f}, CV={cv:.2f}")
-    print("尺寸数=15，每组当前计划的n示例：n=10")
+    print("=== Settings ===")
+    print(f"alpha={alpha:.3f} (two-tailed), target power={target_power:.2f}, CV={cv:.2f}")
+    print("Number of sizes=15, planned n per group: n=10")
 
     key_pairs = [(5, 6), (1, 6), (14, 15), (3, 4)]
 
-    print("\n=== 关键对比（所需每组样本量 与 当前n=10功效）===")
+    print("\n=== Key Comparisons (Required n per group & Power at n=10) ===")
     for a_id, b_id, m1, m2, n_req, pow10 in plan_specific_pairs(key_pairs, cv, alpha, target_power):
-        print(f"尺寸{a_id} vs {b_id}: means=({m1:.2f},{m2:.2f}), Δ={abs(m1-m2):.2f}m, n_req≈{math.ceil(n_req)}, power@n=10≈{pow10:.2f}")
+        print(f"Size {a_id} vs {b_id}: means=({m1:.2f},{m2:.2f}), Δ={abs(m1-m2):.2f}m, n_req≈{math.ceil(n_req)}, power@n=10≈{pow10:.2f}")
 
     if args.show_all_adjacent:
-        print("\n=== 全部相邻对（每组所需样本量）===")
+        print("\n=== All Adjacent Pairs (Required n per group) ===")
         for a_id, b_id, m1, m2, n_req in plan_adjacent_pairs(cv, alpha, target_power):
-            print(f"尺寸{a_id} vs {b_id}: Δ={abs(m1-m2):.2f}m, n_req≈{math.ceil(n_req)}")
+            print(f"Size {a_id} vs {b_id}: Δ={abs(m1-m2):.2f}m, n_req≈{math.ceil(n_req)}")
 
-    print("\n提示：当Δ很小且CV不小，n_req会非常大；更适合采用回归/趋势为主的研究问题设计。")
+    print("\nNote: When Δ is small and CV is not small, n_req becomes very large; consider regression/trend-based research design instead.")
 
 if __name__ == "__main__":
     main()
