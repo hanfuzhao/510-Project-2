@@ -524,24 +524,20 @@ Each Python script includes:
 
 ## Citation
 
+No AI tools were used.
+
 If you use this analysis or methodology, please cite:
 
 ```
-[Your Name]. (2025). Effect of Paper Plane Size on Flight Distance: 
-A Statistical Analysis. [Course Number], [University].
+Hanfu Zhao, Jaideep Aher. (2025). Effect of Paper Plane Size on Flight Distance: 
+A Statistical Analysis. AIPI 510, Duke University.
 ```
 
 ---
 
 ## Contact
 
-**Author:** [Your Name]  
-**Email:** [your.email@example.com]  
-**Course:** [Course Number]  
-**Date:** November 2, 2025
-
-For questions about reproduction or methodology, please contact the author.
-
+**Author:** Hanfu Zhao, Jaideep Aher
 ---
 
 ## License
