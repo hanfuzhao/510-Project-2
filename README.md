@@ -506,7 +506,7 @@ Each Python script includes:
 
 ## Citation
 
-No AI tools were used during coding. ChatGPT and Gemini was only used for brainstorm.
+No AI tools were used.
 
 If you use this analysis or methodology, please cite:
 
