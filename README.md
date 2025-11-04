@@ -2,7 +2,7 @@
 
 A reproducible statistical analysis investigating the effect of paper plane size on flight distance.
 
----
+
 
 ## Quick Summary
 
@@ -12,7 +12,7 @@ A reproducible statistical analysis investigating the effect of paper plane size
 
 **Key Finding:** Largest plane (13.18m) flew 18.6× farther than smallest plane (0.71m).
 
----
+
 
 ## Reproduction Instructions
 
@@ -102,7 +102,7 @@ Processed 15 sizes
 Step 4: Exporting processed data...
 Data exported to: ../Data/processed_flights_data.csv
 
-=== Processing Complete ===
+Processing Complete 
 ```
 
 ### Step 4: Run Statistical Analysis
@@ -116,19 +116,19 @@ python3 statistical_analysis.py
 
 **Expected output:**
 ```
-================================================================================
+
 PAPER PLANE FLIGHT DISTANCE ANALYSIS
-================================================================================
+
 
 1. DATA LOADING
---------------------------------------------------------------------------------
+
 Loaded data from: ../Data/raw_flight_data.csv
 Total observations: 150
 Number of size groups: 15
 Trials per size: 10
 
 2. HYPOTHESES
---------------------------------------------------------------------------------
+
 Null Hypothesis (H0):
   Paper plane size has no effect on flight distance.
   
@@ -138,11 +138,9 @@ Alternative Hypothesis (H1):
 Significance level: α = 0.05
 
 3. DESCRIPTIVE STATISTICS
---------------------------------------------------------------------------------
 [Summary table displayed]
 
 4. ASSUMPTION CHECKING
---------------------------------------------------------------------------------
 4.1 Normality Test (Shapiro-Wilk)
 Result: 15/15 groups pass normality test (p > 0.05)
 
@@ -150,13 +148,11 @@ Result: 15/15 groups pass normality test (p > 0.05)
 Result: Unequal variances (p < 0.001)
 
 5. ONE-WAY ANOVA
---------------------------------------------------------------------------------
 F-statistic: 106.0873
 p-value: 0.000000
 Decision: REJECT null hypothesis (p < 0.05)
 
 6. EFFECT SIZE
---------------------------------------------------------------------------------
 Eta-squared (η²): 0.9167
 Interpretation: large effect size
 
