@@ -138,7 +138,7 @@ Alternative Hypothesis (H1):
 Significance level: α = 0.05
 
 3. DESCRIPTIVE STATISTICS
-[Summary table displayed]
+
 
 4. ASSUMPTION CHECKING
 4.1 Normality Test (Shapiro-Wilk)
