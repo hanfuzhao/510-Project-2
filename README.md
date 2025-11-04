@@ -81,7 +81,7 @@ python3 data_processing.py
 
 **Expected output:**
 ```
-=== Data Processing Script ===
+Data Processing Script 
 Input: ../Data/raw_flight_data.csv
 Output: ../Data/processed_flights_data.csv
 
@@ -157,20 +157,15 @@ Eta-squared (η²): 0.9167
 Interpretation: large effect size
 
 7. CORRELATION ANALYSIS
---------------------------------------------------------------------------------
 Correlation coefficient (r): -0.9240
 p-value: 0.000001
 
 8. POST-HOC ANALYSIS
---------------------------------------------------------------------------------
-[Pairwise comparison results]
 
 9. CONFIDENCE INTERVALS
---------------------------------------------------------------------------------
 [95% CIs for each size]
 
 10. SUMMARY OF FINDINGS
-================================================================================
 Key Results:
   • ANOVA F-statistic: 106.0873
   • p-value: 0.000000
@@ -180,9 +175,6 @@ Key Results:
 Statistical Conclusion:
   Paper plane size has a SIGNIFICANT effect on flight distance.
   
-================================================================================
-ANALYSIS COMPLETE
-================================================================================
 ```
 
 **Time to complete:** ~5 seconds
@@ -198,9 +190,9 @@ python3 create_visualizations.py
 
 **Expected output:**
 ```
-================================================================================
+
 GENERATING VISUALIZATIONS FOR PRESENTATION
-================================================================================
+
 Loading data...
 Loaded 150 observations
 
@@ -254,11 +246,11 @@ python3 power_analysis_planner.py
 
 **Expected output:**
 ```
-=== Settings ===
+ Settings 
 alpha=0.050 (two-tailed), target power=0.80, CV=0.25
 Number of sizes=15, planned n per group: n=10
 
-=== Key Comparisons (Required n per group & Power at n=10) ===
+Key Comparisons (Required n per group & Power at n=10
 Size 5 vs 6: means=(6.73,4.56), Δ=2.17m, n_req≈7, power@n=10≈0.93
 Size 1 vs 6: means=(13.18,4.56), Δ=8.62m, n_req≈2, power@n=10≈1.00
 Size 14 vs 15: means=(1.74,0.71), Δ=1.03m, n_req≈2, power@n=10≈1.00
@@ -299,7 +291,7 @@ Size 3 vs 4: means=(7.44,7.48), Δ=0.04m, n_req≈34126, power@n=10≈0.05
     └── 10_size_dimensions.png
 ```
 
----
+
 
 ## Experimental Design Summary
 
@@ -467,7 +459,6 @@ Each Python script includes:
 - Error handling
 - Structured output format
 
----
 
 ## Data Description
 
@@ -495,7 +486,6 @@ Each Python script includes:
 | mean_m | float | Mean flight distance (m) |
 | trial_1 to trial_10 | float | Individual trial distances (m) |
 
----
 
 ## System Requirements
 
@@ -516,7 +506,6 @@ Each Python script includes:
 - Windows 11 with Python 3.10
 - Ubuntu 22.04 with Python 3.10
 
----
 
 ## Citation
 
@@ -529,18 +518,15 @@ Hanfu Zhao, Jaideep Aher. (2025). Effect of Paper Plane Size on Flight Distance:
 A Statistical Analysis. AIPI 510, Duke University.
 ```
 
----
 
 ## Contact
 
 **Author:** Hanfu Zhao, Jaideep Aher
----
 
 ## License
 
 This project is provided for educational purposes. All code and documentation are available for academic use with proper attribution.
 
----
 
 **Last Updated:** November 2, 2025
 
