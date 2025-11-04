@@ -226,9 +226,7 @@ Loaded 150 observations
 10. Creating size dimensions visualization...
    Saved: 10_size_dimensions.png
 
-================================================================================
 ALL VISUALIZATIONS SAVED TO: ../Figures/
-================================================================================
 ```
 
 **Time to complete:** ~10 seconds
@@ -436,7 +434,6 @@ echo "Analysis complete! Check Figures/ for visualizations."
 
 **Total time:** ~20 seconds
 
----
 
 ## Documentation
 
